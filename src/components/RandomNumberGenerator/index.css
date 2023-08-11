@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.random-number-generator-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-number-container {
+  background-color: #ffffff;
+  border: 1px solid #e4ebf3;
+  border-radius: 16px;
+  width: 80%;
+  padding: 36px;
+  box-shadow: 0px 4px 16px 0px #eaebed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .random-number-container {
+      width: 35%;
+      max-width: 500px;
+  }
+}
+
+.random-number-heading {
+  text-align: center;
+  color: #0b69ff;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .random-number-heading {
+      font-size: 32px;
+  }
+}
+
+.random-number-description {
+  text-align: center;
+  color: #333333;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .random-number-description {
+      font-size: 18px;
+  }
+}
+
+.random-number-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.random-number-value {
+  color: #0b69ff;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .random-number-value {
+      font-size: 48px;
+  }
+}
